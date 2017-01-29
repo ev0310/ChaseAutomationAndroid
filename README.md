@@ -9,20 +9,23 @@ Scenario: Alternate log on screen after reinstall
 <li>Then I see alternate log on screen is displayed </ul>
 
 Scenario: BAU Logon screen after update
-Given application is installed
-Given as an existing user
-When I update the application from "current" to "new" version
-Then I launch the application after update
-And I see BAU Logon screen is displayed
+<ul>
+<li>Given application is installed
+<li>Given as an existing user
+<li>When I update the application from "current" to "new" version
+<li>Then I launch the application after update
+<li>And I see BAU Logon screen is displayed </ul>
 
-Scenario: BAU Logon screen first time
-Scenario: BAU Logon screen after close
-Scenario: BAU Logon screen after update
-Scenario: BAU Logon screen for Spanish
+<ul>
+<li>Scenario: BAU Logon screen first time
+<li>Scenario: BAU Logon screen after close
+<li>Scenario: BAU Logon screen after update
+<li>Scenario: BAU Logon screen for Spanish
 
-Scenario: Basic Info screen first time
-Scenario: Basic Info screen after close
+<li>Scenario: Basic Info screen first time
+<li>Scenario: Basic Info screen after close
 
-Scenario: Alternate log on screen first time
-Scenario: Alternate log on screen after close
-Scenario: Alternate log on screen after reinstall
+<li>Scenario: Alternate log on screen first time
+<li>Scenario: Alternate log on screen after close
+<li>Scenario: Alternate log on screen after reinstall
+</ul>
