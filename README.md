@@ -1,11 +1,12 @@
 Scenario: Alternate log on screen after reinstall
-Given application is installed
-Given as a existing user
-When I launch the application again
-Then I see BAU Logon screen is displayed
-Then I delete and reinstall aplication
-And I launch the application after reinstall
-Then I see alternate log on screen is displayed
+<ul>
+<li> Given application is installed
+<li>Given as a existing user
+<li>When I launch the application again
+<li>Then I see BAU Logon screen is displayed
+<li>Then I delete and reinstall aplication
+<li>And I launch the application after reinstall
+<li>Then I see alternate log on screen is displayed </ul>
 
 Scenario: BAU Logon screen after update
 Given application is installed
