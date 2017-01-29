@@ -1,4 +1,4 @@
-Scenario: Alternate log on screen after reinstall
+<b>Scenario: Alternate log on screen after reinstall</b>
 <ul>
 <li> Given application is installed
 <li>Given as a existing user
@@ -8,7 +8,7 @@ Scenario: Alternate log on screen after reinstall
 <li>And I launch the application after reinstall
 <li>Then I see alternate log on screen is displayed </ul>
 
-Scenario: BAU Logon screen after update
+<b>Scenario: BAU Logon screen after update</b>
 <ul>
 <li>Given application is installed
 <li>Given as an existing user
